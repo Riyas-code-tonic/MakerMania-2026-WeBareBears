@@ -14,7 +14,8 @@
 
 # 1. Team Identity
 
-## 1.1 Team Name and Photo
+## 1.1 Team Name : We Bare Bears
+ Photo : 
 
 ---
 
