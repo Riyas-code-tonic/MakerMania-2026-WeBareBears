@@ -15,7 +15,7 @@
 # 1. Team Identity
 
 ## 1.1 Team Name : We Bare Bears
- Photo : <img src="images/THE TEAM-9-1-768x628.png" width="400">
+ Photo : <img src="images/THE TEAM.jpg" width="400">
 
 ---
 
