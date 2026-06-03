@@ -23,9 +23,9 @@
 
 | Name | Role | YEAR | BRANCH |
 | ---- | ---- | ---- | ----   |
-|      |      |      |        |
-|      |      |      |        |
-|      |      |      |        |
+| Riya Pailwan    |      | SE     |  ETCS      |
+| Ankita Karmakar    |      | FE      |  EXTC      |
+| Arsalan Lunje    |      |  SE    |  AURO      |
 
 ---
 
