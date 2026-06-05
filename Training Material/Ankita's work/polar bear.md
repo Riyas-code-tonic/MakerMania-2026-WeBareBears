@@ -8,7 +8,7 @@
             -> Brainstorming useless product ideas
 
 4 June 2026 -> Laser cut MBFTL IDs
-               Photo : <img src="images/Shrike-9-1-768x628.png" width="400">
+               Photo : <img src="Training Material/Images/Ankita ID.jpeg" width="400">
             -> 3D modelling final selected useless product
             -> Learned 3D printing
             -> 3D printed our 'USELESS' product
