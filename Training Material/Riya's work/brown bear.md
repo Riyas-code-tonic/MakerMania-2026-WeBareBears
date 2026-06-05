@@ -1,14 +1,47 @@
-2 June 2026 -> 3D modelling in Fusion360, learning modelling of a bottle 
-               Photo :
-            -> Google Meet with an Alumnus, Prithvi Shetty. Spoke about his project 'TARA' and the critical roadmap to building and selling a product.
-3 June 2026 -> 3D models of stuffing box and keychain
-            -> Laser Cutting, learned to Laser cut designs as keychains
-               Photo :
-            -> Brainstorming useless product ideas
-4 June 2026 -> Laser cut MBFTL IDs
-               Photo :
-            -> 3D modelling final selected useless product
-            -> Learned 3D printing
-            -> 3D printed our 'USELESS' product
-               Photo :
-5 June 2026 ->
+# Riya's MakerMania Work Log
+
+## 2 June 2026
+
+- Learned 3D modelling in Fusion 360 by creating a bottle model.
+
+### Photo
+![Bottle Model](../Images/Riya%20-%203D%20Bottle.png)
+
+- Attended a Google Meet with alumnus **Prithvi Shetty**.
+  - Discussed his project **TARA**.
+  - Learned about the roadmap for building and selling a product.
+
+---
+
+## 3 June 2026
+
+- Created 3D models of:
+  - Stuffing Box
+  - Keychain
+
+- Learned laser cutting and created keychain designs.
+- Brainstormed ideas for a useless product.
+
+---
+
+## 4 June 2026
+
+- Laser-cut MBFTL ID cards.
+
+### Photo
+![MBFTL ID](../Images/Riya%20Pailwan%20-ID.jpeg)
+
+- Finalized the design of our useless product.
+- Learned the basics of 3D printing.
+- Successfully 3D printed our **USELESS** product.
+
+### Photo
+![Useless Product](../Images/Useless%20Product%20-%20'Wheeel'.jpeg)
+
+---
+
+## 5 June 2026
+
+- To be updated.
+
+---
