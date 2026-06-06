@@ -1,9 +1,4 @@
-# MAKERMANIA 2026
-
-## Innovation Project Workbook
-
-> Program Duration: 1 June 2026 – 4 July 2026
->
+# MakerMania - 
 > Location: MBF Tinkerers' Lab 007
 >
 > Team Size: 3–5 Students
