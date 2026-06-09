@@ -24,4 +24,11 @@
 -> 3D printed our 'USELESS' product
 
 ## 5 June 2026 ->
+Recorded the pitch video for our *USELESS* product.
 
+## 6 June 2026
+
+- Edited the pitch video for our *USELESS* product.
+- Uploaded the final video.
+### Video
+[Watch the Final Video](https://youtu.be/IZlCxVAjYFc)
