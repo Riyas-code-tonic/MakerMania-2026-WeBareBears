@@ -19,3 +19,10 @@
 -> Laser cut MBFTL IDs
 
 ![Arsalan ID](../Images/Arsalan%20ID.jpeg)
+
+## 6 June 2026
+
+- Edited the pitch video for our *USELESS* product.
+- Uploaded the final video.
+### Video
+[Watch the Final Video](https://youtu.be/IZlCxVAjYFc)
