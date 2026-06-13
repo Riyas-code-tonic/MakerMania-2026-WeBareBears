@@ -42,3 +42,15 @@
 - Learned how binary counting can be represented and visualized using LEDs.
 
 ---
+
+## 12 June 2026
+
+- Learned the basics of KiCad
+- Narrowed down our problem statement and chose to work on a "Tap Leak Detector"
+- Further conducted our research towards the above problem statement 
+- Compiled a list of 50 problems for the problem sheet.
+
+---
+
+
+
