@@ -34,6 +34,7 @@
 ## 11 June 2026
 
 - Narrowed down and finalized the problem statement for further development.
+- The "Acoustic Fingerprint" Subsurface Leak Detector (IoT & Infrastructure)
 - Conducted additional research on the selected problem statement.
 - Gained deeper insights into the problem domain and its real-world significance.
 - Improved clarity regarding the scope, challenges, and potential solution approaches.
