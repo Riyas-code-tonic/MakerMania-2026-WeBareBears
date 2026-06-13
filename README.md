@@ -1,4 +1,4 @@
-# MakerMania - 
+# MakerMania-2026-WeBareBears 
 > Location: MBF Tinkerers' Lab 007
 >
 > Team Size: 3–5 Students
