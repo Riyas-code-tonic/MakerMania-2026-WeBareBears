@@ -52,5 +52,32 @@
 
 ---
 
+## 13 June 2026
 
+- Researched the **Water Tap Leak Detection System** problem statement and explored its practical applications.
+- Investigated additional problem statements to evaluate their feasibility and impact.
+- Contributed new ideas and added more potential problem statements to the team's list of 50 problem statements.
+- Began researching the **Helmet Pillion Communication** problem statement, focusing on existing solutions and potential areas for innovation.
 
+---
+
+## 15 June 2026
+
+- Finalized the project problem statement:
+
+  > Motorcycle riders often struggle to communicate with pillion passengers due to environmental noise during travel. Wind, engine, and traffic noise significantly reduce speech clarity, making real-time communication difficult and distracting.
+
+- Conducted thorough research to understand the problem domain and validate the proposed solution.
+- Analyzed the advantages, limitations, and challenges associated with the project.
+- Explored various hardware components and technologies suitable for implementing the solution.
+
+---
+
+## 16 June 2026
+
+- Evaluated different component options based on functionality, compatibility, and project requirements.
+- Compared component specifications and suitability to ensure alignment with the project objectives.
+- Prepared the component list for procurement and future implementation stages.
+- Designed a block diagram explaining the logic
+
+---
