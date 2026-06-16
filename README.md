@@ -30,13 +30,8 @@
 
 Where did you conduct your observations?
 
-* Hostel
-* Canteen
-* Workshop
-* Hospital
-* Public Transport
-* Home
-* Other
+Observations were conducted while travelling as a pillion passenger on a motorcycle in real urban road conditions, directly experiencing the communication difficulties caused by wind noise, engine noise, and surrounding traffic
+
 
 ---
 
@@ -46,21 +41,33 @@ Where did you conduct your observations?
 
 What are users doing?
 
+Riders  turn their heads, rely on shoulder taps, wait for traffic stops, or even pull over to communicate, creating inconvenience and potential safety risks.
+
 ### Environment
 
 What conditions affect them?
 
-### Interactions
+Communication between riders and pillions is heavily affected by wind, engine, and traffic noise, especially at high speeds where normal conversation becomes difficult. Helmet design, rider-pillion positioning, road vibrations, weather, and high temperatures further reduce speech clarity and make effective communication challenging.
 
+### Interactions
 Who or what are they interacting with?
+
+The rider’s attention is focused on operating the motorcycle, making communication difficult and secondary. The pillion usually communicates by shouting or tapping the rider’s shoulder, but communication is one-sided and often hindered by surrounding noise. Existing solutions like phone earbuds do not effectively address rider–pillion communication.
 
 ### Objects
 
 What tools or products are used?
 
+At present, most rider–pillion pairs rely on shouting or hand gestures to communicate, as there are no widely used dedicated communication tools. While premium Bluetooth intercom systems exist, they are expensive and require both users to wear compatible helmet-mounted devices. Mobile phones and earbuds are mainly used for music or navigation and do not effectively solve rider–pillion communication.
+
+
 ### Users
 
 Who are the primary users?
+
+The primary users are motorcycle riders who frequently travel with a pillion, including daily commuters, couples, families, students, and touring enthusiasts. These riders often face communication difficulties due to road and wind noise, making a simple and affordable communication solution highly valuable. The rider is the primary purchaser, while the pillion directly benefits from improved communication. By offering an easy-to-use system that does not require both users to wear specialized helmets, the solution targets a broad market and provides a practical, cost-effective alternative to expensive premium intercom systems.
+
+
 
 ---
 
