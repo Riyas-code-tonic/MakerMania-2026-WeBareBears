@@ -101,42 +101,60 @@ Number of users interviewed: ______
 
 ## *Persona1*
 
-### Name : Ashish Waghmare
+**Name:** Ashish Waghmare
 
-### Age : 20
+**Age:** 20
 
-### Occupation : Student 
+**Occupation:** Student
 
-### Goals : Convenient communication system.
+**Goals:**
+Stay connected with the pillion passenger without interrupting the journey.
 
-### Frustrations : To turn back multiple times in order to communicate.
+**Frustrations:**
+Having to repeatedly turn back to communicate with the pillion passenger.
 
-### Needs : Saving time and energy while commuting.
+**Needs:**
+A hands-free communication solution for rider–pillion interaction.
+
+
 
 ## *Persona2*
 
-### Name : Aarush Srivastava
+**Name:** Aarush Srivastava
 
-### Age : 20
+**Age:** 20
 
-### Occupation : Student 
+**Occupation:** Student 
 
-### Goals : 
+**Goals:**
 To ensure safe riding while also communicating efficientlty
 
-### Frustations : 
+**Frustrations:**
 When trying to communicate something specific, riders often have to shout
-and repeat themselves multiple                               times before the pillion can understand the message 
+and repeat themselves multiple times before the pillion can understand the message 
 
-### Goals :  Safe riding 
-
-
-
+**Needs:** 
+Clear and reliable voice transmission while commuting.
 
 
+## *Persona3*
 
+**Name:** Ekansh Bansode
 
+**Age:** 19
 
+**Occupation:** Student
+
+**Goals:**
+Stay focused on the road while riding.
+
+**Frustrations:**
+Pillion passengers needing to lean forward to be heard.
+
+**Needs:**
+Comfortable inside the helmet and proper comunication without interference
+
+---
 
 # 4. Problem Framing
 
