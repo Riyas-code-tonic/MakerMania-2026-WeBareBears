@@ -160,7 +160,7 @@ Comfortable inside the helmet and proper comunication without interference
 
 ## Problem Statement
 
-User __________ needs a way to __________ because __________.
+A motorcycle rider and pillion passenger need a way to communicate clearly during travel because road, wind, and engine noise make verbal communication difficult and unsafe.
 
 ---
 
