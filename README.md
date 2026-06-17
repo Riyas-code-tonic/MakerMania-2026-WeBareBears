@@ -85,21 +85,21 @@ The primary users are motorcycle riders who frequently travel with a pillion, in
 
 ## 3.1 Interview Summary
 
-Number of users interviewed: ______
+Number of users interviewed: ___3___
 
 ## 3.2 Key Quotes
 
-1.
+1. "The wind and engine noise make it difficult to hear what the other person is saying while riding."
 
-2.
+2. "I often have to repeat myself several times before my message is understood."
 
-3.
+3. "I sometimes need to turn back while riding just to communicate with the pillion passenger."
 
 ---
 
 ## 3.3 User Persona
 
-## *Persona1*
+## *Persona 1*
 
 **Name:** Ashish Waghmare
 
@@ -118,7 +118,7 @@ A hands-free communication solution for rider–pillion interaction.
 
 
 
-## *Persona2*
+## *Persona 2*
 
 **Name:** Aarush Srivastava
 
@@ -137,7 +137,7 @@ and repeat themselves multiple times before the pillion can understand the messa
 Clear and reliable voice transmission while commuting.
 
 
-## *Persona3*
+## *Persona 3*
 
 **Name:** Ekansh Bansode
 
