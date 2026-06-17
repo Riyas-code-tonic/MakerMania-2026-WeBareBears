@@ -113,6 +113,29 @@ Number of users interviewed: ______
 
 ### Needs : Saving time and energy while commuting.
 
+## *Persona2*
+
+### Name : Aarush Srivastava
+
+### Age : 20
+
+### Occupation : Student 
+
+### Goals : 
+To ensure safe riding while also communicating efficientlty
+
+### Frustations : 
+When trying to communicate something specific, riders often have to shout
+and repeat themselves multiple                               times before the pillion can understand the message 
+
+### Goals :  Safe riding 
+
+
+
+
+
+
+
 
 
 # 4. Problem Framing
