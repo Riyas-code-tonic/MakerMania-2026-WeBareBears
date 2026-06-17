@@ -73,10 +73,11 @@ The primary users are motorcycle riders who frequently travel with a pillion, in
 
 ## 2.3 Observation Log
 
-| Observation | Evidence | Pain Point |
-| ----------- | -------- | ---------- |
-|             |          |            |
-|             |          |            |
+| Observation                                                     | Evidence                                                                                                                            | Pain Point                                                                       |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Rider and pillion struggle to communicate while riding.         | I personally faced this issue as a pillion rider when I could not clearly hear what the rider was saying during the journey. | Miscommunication and inability to have clear conversations during the ride.      |
+| Riders often use unsafe or inconvenient methods to communicate. | Riders turn their heads, shout, or rely on shoulder taps and hand gestures.                                                         | Reduced riding safety and distraction from the road.                             |
+| Existing communication systems are expensive or impractical.    | Premium Bluetooth intercoms require both users to wear compatible helmet devices and can be costly.                                 | Most everyday riders do not have access to an affordable communication solution. |
 
 ---
 
@@ -98,19 +99,21 @@ Number of users interviewed: ______
 
 ## 3.3 User Persona
 
-### Name
+## *Persona1*
 
-### Age
+### Name : Ashish Waghmare
 
-### Occupation
+### Age : 20
 
-### Goals
+### Occupation : Student 
 
-### Frustrations
+### Goals : Convenient communication system.
 
-### Needs
+### Frustrations : To turn back multiple times in order to communicate.
 
----
+### Needs : Saving time and energy while commuting.
+
+
 
 # 4. Problem Framing
 
