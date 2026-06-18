@@ -223,8 +223,35 @@ Explain your solution.
 ## Block Diagram
 
 Insert diagram here.
+```text
 
----
+                        ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐
+                        │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │───►│ Wireless Audio    │───►│ Audio Received    │───►│   Clear Audio     │
+                        │                   │    │                   │    │ & Noise Reduction │    │  Transmission     │    │   by Earbud       │    │      Heard        │
+                        │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │    │ RS2597 Bluetooth  │    │ Bluetooth Earbud  │    │     by User       │
+                        │      Speaks       │    │                   │    │                   │    │      Module       │    │   / Earpiece      │    │                   │
+                        └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘    └─────────▲─────────┘    └─────────▲─────────┘    └───────────────────┘
+                                                           │                        │                        │                        │
+                                                           │                        │                        │                        │
+                                                           └─────────────── 3.3 V Stable Power ──────────────┴────────────────────────┘
+                                                                                    │
+                                                                                    │
+  ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐
+  │   USB-C Input     │───►│  TP4056 Module    │───►│   Li-Po Battery   │───►│   LDO Regulator   │
+  │       5 V         │    │ Charging &        │    │ 3.0V - 4.2V       │    │ MCP1700 / XC6206  │
+  │  Power Source     │    │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │
+  └───────────────────┘    └───────────────────┘    └───────────────────┘    └───────────────────┘
+                                                               │                        
+                                                               │                        
+                                                               │                                 
+                                                               │                                 
+                                                               │
+                                                               ▼
+                                                ┌─────────────────────────┐
+                                                │ RS2597 Bluetooth Module │
+                                                │    3.7V Direct Power    │
+                                                └─────────────────────────┘
+```                   
 
 ## Inputs
 
