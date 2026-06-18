@@ -229,13 +229,19 @@ Insert diagram here.
 ## Inputs
 
 List sensors, user inputs, data sources.
-
+|INPUT|SOURCE|
+|---|---|
+|Rider Voice|INMP441 MEMS Microphone|
+|Power Supply|3.7V Li-Po Battery|
 ---
 
 ## Outputs
 
 List displays, actuators, software outputs.
-
+|OITPUT|DEVICE|
+|---|---|
+|Wireless Audio Signal|RS2597 Bluetooth Audio Transceiver|
+|Processed Audio Communication|Bluetooth Earbud|
 ---
 
 # 7. Technical Planning
