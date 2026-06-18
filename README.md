@@ -242,14 +242,15 @@ List displays, actuators, software outputs.
 
 ## Electronics
 
-| Component                                               | Purpose |
-| ----                                               | ------- |
-|1. INMP441 MEMS Microphone                          |Captures the rider's or pillion's voice and converts it into digital audio data using the I2S interface.         |
-|2. ESP32 Dev Kit V1                                 |Acts as the main controller, processes audio data, performs noise filtering, and manages wireless communication.         |
-|3. Bluetooth Audio Transceiver Module (RS2597)      |Transmits processed audio wirelessly to Bluetooth earbuds.         |
-|4. TP4056 Charging Module                           |Charges and protects the lithium-ion battery from overcharging and over-discharging.         |
-|5. 18650 Lithium-ion Battery (3.7V)                 |Provides portable power to the entire communication system.         |
-|6. Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         |
+|Sr.No. | Component                                               | Purpose |
+|--| ----                                               | ------- |
+|1.| INMP441 MEMS Microphone                          |Captures the rider's or pillion's voice and converts it into digital audio data using the I2S interface.         |
+|2.| ESP32 Dev Kit V1                                 |Acts as the main controller, processes audio data, performs noise filtering, and manages wireless communication.         |
+|3.| Bluetooth Audio Transceiver Module (RS2597) / KCX_BT_EMITTER      |Transmits processed audio wirelessly to Bluetooth earbuds.         |
+|4.| TP4056 Charging Module                           |Charges and protects the lithium-ion battery from overcharging and over-discharging.         |
+|5.| 3.7V Li-Po Battery                |Provides portable power to the entire communication system.         |
+|6.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         |
+|7.| 3.3V LDO Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |
 
 ---
 
