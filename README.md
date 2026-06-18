@@ -226,7 +226,7 @@ Insert diagram here.
 ```text
 
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐       ┌───────────────────┐    ┌───────────────────┐
-                        │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │───►   │ Audio Received    │───►│   Clear Audio     │
+                        │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │─────► │ Audio Received    │───►│   Clear Audio     │
                         │                   │    │                   │    │ & Noise Reduction │       │   by Earbud       │    │      Heard        │
                         │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │       │ Bluetooth Earbud  │    │     by User       │
                         │      Speaks       │    │                   │    │                   │       │   / Earpiece      │    │                   │
