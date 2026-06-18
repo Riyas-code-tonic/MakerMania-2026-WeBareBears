@@ -166,41 +166,49 @@ A motorcycle rider and pillion passenger need a way to communicate clearly durin
 
 ## How Might We Questions
 
-1.
+1. How might we enable clear communication between a motorcycle rider and pillion without requiring both to wear specialized helmets?
 
-2.
+2. How might we improve communication without requiring riders to shout or repeat themselves?
 
-3.
+3. How might we allow riders to communicate hands-free without distracting them from riding?
 
 ---
 
 ## Opportunity Ranking
 
-| Criteria         | Score |
-| ---------------- | ----- |
-| Severity         |       |
-| Frequency        |       |
-| Feasibility      |       |
-| Novelty          |       |
-| Market Potential |       |
-| Total            |       |
+| Criteria         | Score (/10) |
+| ---------------- | ----------- |
+| Severity         | 8           |
+| Frequency        | 8           |
+| Feasibility      | 7           |
+| Novelty          | 7           |
+| Market Potential | 8           |
+| **Total**        | **38 / 50** |
+
 
 ---
 
 # 5. Solution Ideation
 
-## Brainstormed Ideas
+| Idea                                                                                           | Advantages                                                       | Challenges                                                 |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Helmet Communication System** – Enables clear rider-to-pillion communication wirelessly.     | Improves communication, affordable, enhances riding convenience. | Wind noise, Bluetooth integration, and battery management. |
+| **Underground Pipe Leak Detection** – Detects hidden water leaks using acoustic sensors.       | Early leak detection, saves water, reduces repair costs.         | Noise filtering and underground deployment complexity.     |
+| **Smart Lost Device Finder** – Locates misplaced remotes, earbuds, and other wireless devices. | Saves time, easy to use, reduces frustration.                    | Limited range and dependence on tracking hardware.         |
 
-| Idea | Advantages | Challenges |
-| ---- | ---------- | ---------- |
-|      |            |            |
-|      |            |            |
+
 
 ---
 
-## Selected Concept
+## Selected Concept : Helmet Communication System
+
+
 
 Why was this concept chosen?
+
+We chose the **Helmet Communication System** because it addresses a problem we have personally experienced. As a pillion rider, I often found it difficult to hear what the rider was saying due to wind, traffic, and engine noise, making communication frustrating and ineffective. We also observed that many other riders and pillions face the same issue but usually accept it as a normal part of riding rather than seeking a solution. Although communication systems already exist, they typically require **both the rider and the pillion to wear compatible helmet-mounted devices**, making them expensive and impractical for everyday use. Our concept aims to provide a simpler, more affordable solution that enables clear communication without requiring both users to use specialized helmets.
+
+
 
 ---
 
