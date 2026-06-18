@@ -227,26 +227,28 @@ Insert diagram here.
 
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐       ┌───────────────────┐    ┌───────────────────┐
                         │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │─────► │ Audio Received    │───►│   Clear Audio     │
-                        │                   │    │                   │    │ & Noise Reduction │       │   by Earbud       │    │      Heard        │
-                        │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │       │ Bluetooth Earbud  │    │     by User       │
-                        │      Speaks       │    │                   │    │                   │       │   / Earpiece      │    │                   │
-                        └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘       └─────────▲─────────┘    └───────────────────┘
-                                                                                    │                           │                    
-                                                                                    │                           │                   
-                                                                           3.3 V Stable Power                   │ 
-                                                                                    │                           │
-                                                                                    │                           │  
-                        ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐                 │
-                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│   LDO Regulator   │                 │
-                        │ Charging &        │    │ 3.0V - 4.2V       │    │ MCP1700 / XC6206  │                 │
-                        │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │                 │ 
-                        └───────────────────┘    └───────────────────┘    └───────────────────┘                 │
-                                                           │                                                    │   
-                                                           │                                                    │
-                                                           │                                                    │
-                                              ┌────────────▼────────────┐                                       │
-                                              │ RS2597 Bluetooth Module │───────────────────────────────────────│
-                                              │    3.7V Direct Power    │
+                        │                   │    │                   │    │ & Noise Reduction │    ▲  │   by Earbud       │    │      Heard        │
+                        │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │    │  │ Bluetooth Earbud  │    │     by User       │
+                        │      Speaks       │    │                   │    │                   │    │  │   / Earpiece      │    │                   │
+                        └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘    │  └───────────────────┘    └───────────────────┘
+                                                                                    │              │                                 
+                                                                                    │              │                                
+                                                                           3.3 V Stable Power      │              
+                                                                                    │              │             
+                                                                                    │              │               
+                        ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    │             
+                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│   LDO Regulator   │    │             
+                        │ Charging &        │    │ 3.0V - 4.2V       │    │ MCP1700 / XC6206  │    │             
+                        │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │    │              
+                        └───────────────────┘    └───────────────────┘    └───────────────────┘    │             
+                                                           │                                       │                
+                                                           │                                       │            
+                                                           │                                       │             
+                                              ┌────────────▼────────────┐                          │             
+                                              │ RS2597 Bluetooth Module │──────────────────────────│
+                                              │    3.7V Direct Power    │ 
+                                              │   Audio Transmission    │
+                                              │       via Bluetooth     │
                                               └─────────────────────────┘
                                                                                 
 ```                   
