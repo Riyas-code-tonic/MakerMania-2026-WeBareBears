@@ -283,7 +283,7 @@ List displays, actuators, software outputs.
 |4.| TP4056 Charging Module                           |Charges and protects the lithium-ion battery from overcharging and over-discharging.         |
 |5.| 3.7V Li-Po Battery                |Provides portable power to the entire communication system.         |
 |6.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         |
-|7.| 3.3V LDO Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |
+|7.| 7Semi 5V to 3.3V 1A LDO Low Dropout Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |
 
 Component List : [Component List](docs/Component%20List.docx)
 ---
