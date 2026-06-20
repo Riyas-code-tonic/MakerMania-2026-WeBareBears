@@ -216,7 +216,13 @@ We chose the **Helmet Communication System** because it addresses a problem we h
 
 ## High-Level Description
 
-Explain your solution.
+The proposed system is a low-cost wireless rider–pillion communication solution designed for motorcycles. The rider's or pillion passenger's voice is captured using an INMP441 MEMS microphone, which converts sound into digital audio data and transmits it to the ESP32 through the I²S protocol.
+
+The ESP32 performs audio processing functions such as noise filtering, gain control, voice enhancement, and audio formatting to improve speech clarity in noisy riding environments. The processed audio is then converted into analog audio output using the ESP32's built-in DAC and transmitted to the RS2597 Bluetooth Audio Transceiver Module.
+
+The RS2597 module wirelessly streams the audio via Bluetooth to a paired Bluetooth earbud or earpiece, allowing clear communication between the rider and pillion passenger.
+
+The system is powered by a 3.7V Li-Po battery charged through a TP4056 charging module. A 7Semi 5V to 3.3V 1A LDO regulator provides a stable 3.3V supply to the ESP32 and INMP441 microphone, while the RS2597 Bluetooth module is powered directly from the Li-Po battery.
 
 ---
 
