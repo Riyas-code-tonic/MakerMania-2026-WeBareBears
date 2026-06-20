@@ -249,10 +249,9 @@ Insert diagram here.
                                               │    3.7V Direct Power    │ 
                                               │   Audio Transmission    │
                                               │       via Bluetooth     │
-                                              └─────────────────────────┘
-                                                                                
-```                   
-
+                                              └─────────────────────────┘                                                                         
+```
+ ![Block Diagram](images/Block%20diagram.jpeg)       
 ## System Architecture
 
                     ┌─────────────┐
