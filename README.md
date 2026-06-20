@@ -285,6 +285,7 @@ List displays, actuators, software outputs.
 |6.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         |
 |7.| 3.3V LDO Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |
 
+Component List:- docs/Component List.docx
 ---
 
 ## Software
