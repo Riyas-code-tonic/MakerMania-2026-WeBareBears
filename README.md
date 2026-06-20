@@ -237,8 +237,8 @@ Insert diagram here.
                                                                                     │              │             
                                                                                     │              │               
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    │             
-                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│   LDO Regulator   │    │             
-                        │ Charging &        │    │ 3.0V - 4.2V       │    │ MCP1700 / XC6206  │    │             
+                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│ 7Semi 5V to 3.3V  │    │             
+                        │ Charging &        │    │ 3.0V - 4.2V       │    │  1A LDO MCP1700   │    │             
                         │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │    │              
                         └───────────────────┘    └───────────────────┘    └───────────────────┘    │             
                                                            │                                       │                
@@ -253,6 +253,45 @@ Insert diagram here.
                                                                                 
 ```                   
 
+## Schematic Diagram
+
+                    ┌─────────────┐
+                    │   TP4056    │
+                    │  Charging   │
+                    │  Module     │
+                    └──────┬──────┘
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │ Li-Po       │
+                    │ Battery     │
+                    │ 3.7V        │
+                    └───┬─────┬───┘
+                        │     │
+                        │     │ Direct 3.7V
+                        │     ▼
+                        │ ┌─────────────┐
+                        │ │   RS2597    │   Bluetooth      ┌─────────────────┐
+                        │ │ Bluetooth   │────────────────► │ Bluetooth Earbud│
+                        │ │ Transceiver │                  └─────────────────┘
+                        │ └───────────▲─┘
+                        │             │
+                        ▼             │  
+                 ┌─────────────┐      │─ Noise Filtering
+                 │ 7Semi 5V to │      │─ Gain Control
+                 │ 3.3V 1A LDO │      │─ Voice Enhancement
+                 └──────┬──────┘      │─ Audio Formatting
+                        │             │─ DAC─► Analog Audio
+                        ▼             │
+                 ┌─────────────┐  I²S │
+                 │   ESP32     │──────│
+                 └──────▲──────┘
+                        │ 
+                        │
+                 ┌──────│──────┐
+                 │  INMP441    │
+                 │ MEMS Mic    │
+                 └─────────────┘
 ## Inputs
 
 List sensors, user inputs, data sources.
