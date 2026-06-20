@@ -227,7 +227,7 @@ Insert diagram here.
 
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐       ┌───────────────────┐    ┌───────────────────┐
                         │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │─────► │ Audio Received    │───►│   Clear Audio     │
-                        │                   │    │                   │    │ & Noise Reduction │    ▲  │   by Earbud       │    │      Heard        │
+                        │                   │    │                   │    │ & Noise Reduction │    ▲  │         by        │    │      Heard        │
                         │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │    │  │ Bluetooth Earbud  │    │     by User       │
                         │      Speaks       │    │                   │    │                   │    │  │   / Earpiece      │    │                   │
                         └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘    │  └───────────────────┘    └───────────────────┘
@@ -238,7 +238,7 @@ Insert diagram here.
                                                                                     │              │               
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    │             
                         │  TP4056 Module    │───►│   Li-Po Battery   │───►│ 7Semi 5V to 3.3V  │    │             
-                        │ Charging &        │    │ 3.0V - 4.2V       │    │  1A LDO MCP1700   │    │             
+                        │ Charging &        │    │ 3.0V - 4.2V       │    │      1A LDO       │    │             
                         │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │    │              
                         └───────────────────┘    └───────────────────┘    └───────────────────┘    │             
                                                            │                                       │                
@@ -253,7 +253,7 @@ Insert diagram here.
                                                                                 
 ```                   
 
-## Schematic Diagram
+## System Architecture
 
                     ┌─────────────┐
                     │   TP4056    │
@@ -276,12 +276,12 @@ Insert diagram here.
                         │ │ Transceiver │                  └─────────────────┘
                         │ └───────────▲─┘
                         │             │
-                        ▼             │  
+                        ▼             │─ DAC─► Analog Audio 
                  ┌─────────────┐      │─ Noise Filtering
                  │ 7Semi 5V to │      │─ Gain Control
                  │ 3.3V 1A LDO │      │─ Voice Enhancement
                  └──────┬──────┘      │─ Audio Formatting
-                        │             │─ DAC─► Analog Audio
+                        │             │
                         ▼             │
                  ┌─────────────┐  I²S │
                  │   ESP32     │──────│
