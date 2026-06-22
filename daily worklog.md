@@ -81,3 +81,28 @@
 - Designed a block diagram explaining the logic
 
 ---
+
+## 17 June 2026
+
+- Finalized the component list required for the project.
+- Reviewed component specifications and compatibility for system integration.
+### MEMS Microphone
+![MEMS microphone](images/MEMS%20microphone.png)
+---
+
+## 18 June 2026
+
+- Performed initial testing of the MEMS microphone.
+- Verified microphone functionality and audio signal acquisition.
+
+---
+
+## 20 June 2026
+
+- Captured and analyzed environmental noise samples.
+- Studied sources of noise such as wind, engine, and traffic sounds.
+- Explored noise filtering techniques using the ESP32 for improved voice clarity.
+### Noise filtering attempts 
+![Testing](images/Testing.jpeg)
+
+---
