@@ -320,15 +320,15 @@ List displays, actuators, software outputs.
 
 ## Electronics
 
-|Sr.No. | Component                                               | Purpose |
-|--| ----                                               | ------- |
-|1.| INMP441 MEMS Microphone                          |Captures the rider's or pillion's voice and converts it into digital audio data using the I2S interface.         |
-|2.| ESP32 Dev Kit V1                                 |Acts as the main controller, processes audio data, performs noise filtering, and manages wireless communication.         |
-|3.| Bluetooth Audio Transceiver Module (RS2597) / KCX_BT_EMITTER      |Transmits processed audio wirelessly to Bluetooth earbuds.         |
-|4.| TP4056 Charging Module                           |Charges and protects the lithium-ion battery from overcharging and over-discharging.         |
-|5.| 3.7V Li-Po Battery                |Provides portable power to the entire communication system.         |
-|6.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         |
-|7.| 7Semi 5V to 3.3V 1A LDO Low Dropout Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |
+|Sr.No. | Component                                               | Purpose | Links|
+|--| ----                                               | ------- | ------- |
+|1.| INMP441 MEMS Microphone |Captures the rider's or pillion's voice and converts it into digital audio data using the I2S interface. |https://robu.in/product/inmp441-mems-high-precision-omnidirectional-microphone-module-i2s/|
+|2.| ESP32 Dev Kit V1                                 |Acts as the main controller, processes audio data, performs noise filtering, and manages wireless communication. |https://www.amazon.in/Generic-ESP32-Dev-Kit-V1/dp/B0H26254W7|
+|3.| Bluetooth Audio Transceiver Module (RS2597) / KCX_BT_EMITTER      |Transmits processed audio wirelessly to Bluetooth earbuds.   |https://rees52.com/products/4-1-bluetooth-audio-transceiver-module-audio-transmitter-module-board-stereo-audio-gfsk-transceiver-wireless-speaker-headphones-5v-rs2597?srsltid=AfmBOorpr6SeuYwOdexR3AwkOu1zdiMe_uD8f6_Zl5_g5CYjCmDY-Gkg|
+|4.| TP4056 Charging Module                           |Charges and protects the lithium-ion battery from overcharging and over-discharging.         |https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/|
+|5.| 3.7V Li-Po Battery                |Provides portable power to the entire communication system.         |https://www.amazon.in/Bhajanlal-Greenery-Rechargeable-Lithium-Batteries/dp/B0CYQ6H8FW/ref=sr_1_3?dib=eyJ2IjoiMSJ9.thQ1Mwz187BZipM44BRlhdTAx6JaF3HyCnsWCsRJuL2KHVPDK1KtSHf2PZHfLslFJFp4cf_0Yg30JvBI_nHSRGupjoyzKyJaA0cpyGDQPtPpeoEiIzAAhvGzm3xfcB97sV9p6FVYK_S0sWoE_d8UlYugrQByKRxaNlcFumSH3Bu7UQqvYVq8RvIVBaW8uBhle8cEVp5CWP0ISG64SlHHUnpr0AhyGUAb-rUpYLHqyxw.ODOEtayARF_BoN5W_LKuFy1kIfclOHvXqF7iw0-rotw&dib_tag=se&keywords=lipo+battery&qid=1781768955&sr=8-3|
+|6.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         ||
+|7.| 7Semi 5V to 3.3V 1A LDO Low Dropout Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |https://evelta.com/7semi-5v-to-3-3v-1a-ldo-low-dropout-regulator-breakout-with-enable/|
 
 Component List : [Component List](docs/Component%20List.docx)
 ---
