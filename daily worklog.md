@@ -106,3 +106,47 @@
 ![Testing](images/Testing.jpeg)
 
 ---
+
+## 22 June 2026
+
+- Analyzed and tested the speech transmission code used for audio communication between the MEMS microphone and Bluetooth earbuds. 
+- Investigated the data flow through the ESP32 to identify potential sources of audio loss and latency.
+- Documented observed issues and evaluated areas for further optimization and debugging.
+
+---
+
+## 23 June 2026
+
+- Worked on debugging potential errors in the speech transmission system and analyzed their impact on audio quality. 
+- Tested various voice filtering techniques to improve speech clarity and reduce unwanted background noise.
+- Evaluated filter performance and documented observations for further optimization.
+  
+---
+
+## 24 June 2026
+
+- Conducted a detailed review and scrutiny of the speech transmission code. Analyzed the existing implementation, modified key parameters, and optimized several variables to improve overall system performance and stability.
+- Completed the implementation and testing of the DSP (Digital Signal Processing) pipeline. Performance was evaluated in multiple environments, including a quiet room, a crowded indoor setting, and areas with significant traffic noise to assess noise suppression effectiveness.
+- Successfully established a Bluetooth audio connection between the ESP32's built-in Bluetooth module and the target Bluetooth earbuds. Verified stable pairing and audio transmission functionality.
+- Achieved end-to-end voice communication through the system. Speech captured by the MEMS microphone was processed by the ESP32, transmitted via Bluetooth, and successfully played back through the connected earbuds.
+
+- Understood problems and dealt with them
+  
+> Challenges Encountered During Speech Transmission
+While developing the speech communication system using a MEMS microphone, ESP32, and Bluetooth earbuds, the following issues were identified:
+> 1.	Initial Speech Clipping
+The first word or a few initial syllables of a spoken sentence are occasionally omitted during transmission.
+> 2.	Inter-Sentence Audio Loss
+When transitioning from one sentence to the next, portions of speech may be dropped, resulting in incomplete audio transmission.
+> 3.	End-of-Sentence Clipping
+The last few letters or syllables of a sentence are sometimes not transmitted successfully.
+> 4.	Bluetooth Pairing Security
+The earbuds should only connect to the intended communication module and must be protected from unauthorized pairing attempts while in pairing mode.
+> 5.	Connection Stability
+Once connected, the earbuds should maintain the Bluetooth connection and should only disconnect when placed back into their charging case.
+> 6.	Wind Noise Interference
+Wind noise significantly affects microphone performance and reduces speech intelligibility in outdoor environments.
+> 7.	Speech Latency
+Noticeable delay exists between speech capture and audio playback, impacting real-time communication.
+
+---
