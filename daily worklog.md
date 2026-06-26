@@ -153,8 +153,6 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 
 ## 25 June 2026
 
-### Daily Progress
-
 - Worked on resolving the issues of **Initial Speech Clipping** and **Inter-Sentence Audio Loss** in the speech transmission pipeline. Investigated the underlying causes by analyzing the audio processing flow, tuning relevant parameters, and testing multiple configurations to improve the continuity of speech transmission.
 - During the debugging process, encountered an issue with **audio amplification**, where the processed audio exhibited inconsistent output levels. Began analyzing the DSP pipeline and gain settings to identify the source of the amplification problem and determine appropriate corrective measures.
 
