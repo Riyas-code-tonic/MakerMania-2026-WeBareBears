@@ -289,7 +289,7 @@ Insert diagram here.
                  │  INMP441    │
                  │ MEMS Mic    │
                  └─────────────┘
- ![System Architecture](images/System%20architecture.jpeg)                
+![System Architecture](images/System%20Architecture.png)               
 ## Inputs
 
 List sensors, user inputs, data sources.
