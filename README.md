@@ -249,7 +249,7 @@ Insert diagram here.
                         └───────────────────┘    └───────────────────┘    └───────────────────┘                
                                                                                                                           
 ```
- ![Block Diagram](images/Block%20diagram.jpeg)       
+![Block Diagram](images/Block%20Diagram.png)
 ## System Architecture
 
                     ┌─────────────┐
