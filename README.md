@@ -304,7 +304,6 @@ List sensors, user inputs, data sources.
 List displays, actuators, software outputs.
 |OUTPUT|DEVICE|
 |---|---|
-|Wireless Audio Signal|RS2597 Bluetooth Audio Transceiver|
 |Processed Audio Communication|Bluetooth Earbud|
 ---
 
