@@ -164,3 +164,12 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 - Investigated the Bluetooth pairing mechanism to ensure that the earbuds connect only to the intended ESP32 module. Evaluated pairing behavior and explored methods to improve connection reliability while preventing unintended connections to other nearby Bluetooth devices.
 
 ---
+
+## 29 June 2026
+
+- Worked on improving **Bluetooth connection stability** to ensure that the earbuds maintain a persistent connection with the ESP32 during operation. Investigated reconnection behavior and explored methods to prevent unintended disconnections until the earbuds are placed back in their charging case.
+- Evaluated the impact of **wind noise interference** on the MEMS microphone and analyzed its effect on speech intelligibility in outdoor environments. Tested the DSP pipeline under different conditions to identify opportunities for improving noise suppression.
+- Analyzed the causes of **speech latency** in the audio transmission pipeline. Investigated the contribution of audio buffering, DSP processing, and Bluetooth transmission to reduce end-to-end delay and improve real-time communication.
+- Studied **RSSI (Received Signal Strength Indicator)** and Bluetooth device discovery techniques. Explored Bluetooth scanning and discoverable device mechanisms to better understand connection management, device selection, and pairing optimization.
+
+---
