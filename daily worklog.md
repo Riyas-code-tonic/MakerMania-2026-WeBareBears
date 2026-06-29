@@ -157,3 +157,10 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 - During the debugging process, encountered an issue with **audio amplification**, where the processed audio exhibited inconsistent output levels. Began analyzing the DSP pipeline and gain settings to identify the source of the amplification problem and determine appropriate corrective measures.
 
 ---
+
+## 27 June 2026
+
+- Worked on resolving the End-of-Sentence Clipping issue, where the last few letters or syllables of a sentence were occasionally omitted during transmission. Analyzed the speech processing pipeline, adjusted relevant parameters, and performed repeated testing to improve complete audio delivery.
+- Investigated the Bluetooth pairing mechanism to ensure that the earbuds connect only to the intended ESP32 module. Evaluated pairing behavior and explored methods to improve connection reliability while preventing unintended connections to other nearby Bluetooth devices.
+
+---
