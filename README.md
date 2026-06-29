@@ -233,29 +233,21 @@ Insert diagram here.
 
                         ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐       ┌───────────────────┐    ┌───────────────────┐
                         │   Voice Input     │───►│  Voice Capture    │───►│ Audio Processing  │─────► │ Audio Received    │───►│   Clear Audio     │
-                        │                   │    │                   │    │ & Noise Reduction │    ▲  │         by        │    │      Heard        │
-                        │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │    │  │ Bluetooth Earbud  │    │     by User       │
-                        │      Speaks       │    │                   │    │                   │    │  │   / Earpiece      │    │                   │
-                        └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘    │  └───────────────────┘    └───────────────────┘
-                                                                                    │              │                                 
-                                                                                    │              │                                
-                                                                           3.3 V Stable Power      │              
-                                                                                    │              │             
-                                                                                    │              │               
-                        ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐    │             
-                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│ 7Semi 5V to 3.3V  │    │             
-                        │ Charging &        │    │ 3.0V - 4.2V       │    │      1A LDO       │    │             
-                        │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │    │              
-                        └───────────────────┘    └───────────────────┘    └───────────────────┘    │             
-                                                           │                                       │                
-                                                           │                                       │            
-                                                           │                                       │             
-                                              ┌────────────▼────────────┐                          │             
-                                              │ RS2597 Bluetooth Module │──────────────────────────│
-                                              │    3.7V Direct Power    │ 
-                                              │   Audio Transmission    │
-                                              │       via Bluetooth     │
-                                              └─────────────────────────┘                                                                         
+                        │                   │    │                   │    │ & Noise Reduction │       │         by        │    │      Heard        │
+                        │ Rider / Pillion   │    │ INMP441 MEMS Mic  │    │      ESP32        │       │ Bluetooth Earbud  │    │     by User       │
+                        │      Speaks       │    │                   │    │                   │       │   / Earpiece      │    │                   │
+                        └───────────────────┘    └─────────▲─────────┘    └─────────▲─────────┘       └───────────────────┘    └───────────────────┘
+                                                                                    │                                               
+                                                                                    │                                              
+                                                                           3.3 V Stable Power                    
+                                                                                    │                           
+                                                                                    │                             
+                        ┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐                 
+                        │  TP4056 Module    │───►│   Li-Po Battery   │───►│ 7Semi 5V to 3.3V  │                 
+                        │ Charging &        │    │ 3.0V - 4.2V       │    │      1A LDO       │                 
+                        │ Protection        │    │ (Nom. 3.7V)       │    │   3.3V Output     │                  
+                        └───────────────────┘    └───────────────────┘    └───────────────────┘                
+                                                                                                                          
 ```
  ![Block Diagram](images/Block%20diagram.jpeg)       
 ## System Architecture
@@ -271,15 +263,15 @@ Insert diagram here.
                     │ Li-Po       │
                     │ Battery     │
                     │ 3.7V        │
-                    └───┬─────┬───┘
-                        │     │
-                        │     │ Direct 3.7V
-                        │     ▼
-                        │ ┌─────────────┐
-                        │ │   RS2597    │   Bluetooth      ┌─────────────────┐
-                        │ │ Bluetooth   │────────────────► │ Bluetooth Earbud│
-                        │ │ Transceiver │                  └─────────────────┘
-                        │ └───────────▲─┘
+                    └───┬─────────┘
+                        │     
+                        │     
+                        │     
+                        │ 
+                        │    ┌─────────────────┐
+                        │    │ Bluetooth Earbud│
+                        │    └────────▲────────┘
+                        │             │
                         │             │
                         ▼             │─ DAC─► Analog Audio 
                  ┌─────────────┐      │─ Noise Filtering
