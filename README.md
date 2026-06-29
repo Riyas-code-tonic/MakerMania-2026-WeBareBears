@@ -321,7 +321,7 @@ List displays, actuators, software outputs.
 |5.| Bluetooth Earbud                                 |Receives and plays the transmitted audio to the user.         ||
 |6.| 7Semi 5V to 3.3V 1A LDO Low Dropout Regulator                                |Provides a stable 3.3V supply to the ESP32, INMP441, and other low-voltage components.       |https://evelta.com/7semi-5v-to-3-3v-1a-ldo-low-dropout-regulator-breakout-with-enable/|
 
-Component List : [Component List](docs/Component%20List.docx)
+Component List : [📄 Component List](docs/Component%20List.docx)
 ---
 
 ## Software
