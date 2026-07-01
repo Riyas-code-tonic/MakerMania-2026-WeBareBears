@@ -173,3 +173,18 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 - Studied **RSSI (Received Signal Strength Indicator)** and Bluetooth device discovery techniques. Explored Bluetooth scanning and discoverable device mechanisms to better understand connection management, device selection, and pairing optimization.
 
 ---
+
+## 30 June 2026
+
+- Encountered issues with **voice amplification**, where the output audio exhibited inconsistent gain levels and excessive amplification. Investigated the DSP gain stages and audio processing pipeline to identify the source of the problem and evaluate possible solutions.
+- Identified challenges related to **noise cancellation**, as background noise suppression affected speech quality under certain conditions. Analyzed the performance of the current noise reduction algorithm and tested different configurations to improve speech clarity while minimizing distortion.
+
+---
+
+## 1 July 2026
+
+- Worked on resolving **voice amplification** issues by analyzing the DSP pipeline and adjusting audio gain parameters. Tested multiple configurations to achieve consistent output levels while maintaining clear and distortion-free speech.
+- Worked on **Bluetooth device scanning and discovery** by implementing and testing the scanning process for nearby Bluetooth devices. Evaluated the discovery mechanism to improve device detection and support reliable pairing with the intended Bluetooth earbuds.
+
+---
+
