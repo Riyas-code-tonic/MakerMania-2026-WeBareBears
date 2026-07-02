@@ -188,3 +188,8 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 
 ---
 
+## 2 July 2026
+
+- Working on implementing **automatic Bluetooth device discovery and pairing** for discoverable Bluetooth earbuds. Investigated scanning mechanisms, RSSI-based device selection, and pairing workflows to enable the ESP32 to automatically detect and connect to available earbuds without requiring manual configuration.
+- Testing and refining the auto-pairing process to improve connection reliability and ensure seamless reconnection with the intended Bluetooth earbuds whenever they are available.
+
