@@ -18,9 +18,9 @@
 
 | Name | Role | YEAR | BRANCH |
 | ---- | ---- | ---- | ----   |
-| Riya Pailwan    |      | SE     |  ETCS      |
-| Ankita Karmakar    |      | FE      |  EXTC      |
-| Arsalan Lunje    |      |  SE    |  AURO      |
+| Riya Pailwan    |   DSP & Bluetooth pairing   | SE     |  ETCS      |
+| Ankita Karmakar    |  Design & Prototype    | FE      |  EXTC      |
+| Arsalan Lunje    |    DSP & Bluetooth pairing        |  SE    |  AURO      |
 
 ---
 
