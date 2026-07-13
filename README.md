@@ -333,7 +333,7 @@ Component List : [📄 Component List](docs/Component%20List.docx)
 ---
 
 ## Mechanical / CAD
-
+[Prototype 2 - RideConnect STL](cad/Prototype2%20-%20RideConnect.stl)
 Describe fabricated components.
 
 ---
