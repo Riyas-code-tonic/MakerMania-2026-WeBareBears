@@ -342,24 +342,36 @@ Describe fabricated components.
 
 ## Version 1
 
-Description:
+Description: The first prototype focused on validating the communication concept. Individual components such as the ESP32, MEMS microphone, Bluetooth module, and power supply were tested independently to ensure proper functionality.
 
 Lessons Learned:
+- Verified the functionality of individual hardware components before system integration.
+- Identified the importance of testing each module independently to simplify debugging.
+- Gained an understanding of power requirements, hardware compatibility, and communication interfaces.
 
 ---
 
 ## Version 2
 
-Description:
+Description: The immediate prototype involved integrating all the selected hardware components into a single compact embedded system to validate the concept. An ESP32 microcontroller was interfaced with the INMP441 MEMS microphone using the I²S protocol to capture digital audio, while a Bluetooth audio module was used to transmit the processed voice wirelessly to a Bluetooth earbud.
+Initial firmware was developed to perform basic audio acquisition, signal processing, and wireless transmission. Testing of the prototype helped identify issues such as wind noise interference, audio latency, power stability, and Bluetooth connectivity. Based on these observations, the system was further refined by optimizing the audio processing pipeline, improving power management, and enhancing the overall reliability of the communication system.
+
+![Testing](images/Testing.jpeg)
 
 Lessons Learned:
+- Integrating all hardware components introduced challenges such as speech clipping, audio latency, Bluetooth pairing issues, and wind noise interference.
+- DSP algorithms required extensive tuning to achieve a balance between noise reduction, amplification, and speech clarity.
+- Stable Bluetooth connectivity and efficient power management were essential for reliable real-time communication.
+- Testing in different environments helped identify practical limitations and guided further optimization of the system.
 
 ---
 
 ## Final Prototype
 
-Description:
+Description: The final prototype consists of an ESP32-based communication unit powered by a rechargeable Li-Po battery. An INMP441 MEMS microphone captures the rider's or pillion's voice, while the ESP32 processes the audio using noise reduction and gain control algorithms. The processed audio is transmitted wirelessly to a Bluetooth earbud, enabling clear communication without requiring specialized helmet-mounted intercoms. The design is lightweight, portable, rechargeable, and cost-effective, making it suitable for daily commuters as well as long-distance riders.
 
+![Final Prototype](images/Prototype_final.png)
+![Final Prototype](images/Prototype_Final.jpeg)
 ---
 
 # 9. Testing & Validation
@@ -367,9 +379,12 @@ Description:
 ## Testing Plan
 
 | Test | Success Criteria |
-| ---- | ---------------- |
-|      |                  |
-|      |                  |
+|------|------------------|
+| Audio Capture | MEMS microphone accurately captures speech with minimal distortion. |
+| Audio Transmission | Speech is transmitted wirelessly to the Bluetooth earbuds without interruptions. |
+| DSP Performance | Noise reduction and gain control improve speech clarity while preserving voice quality. |
+| Latency Test | End-to-end audio delay remains low enough for comfortable real-time communication. |
+
 
 ---
 
