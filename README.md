@@ -327,8 +327,8 @@ Component List : [📄 Component List](docs/Component%20List.docx)
 
 | Tool | Purpose |
 | ---- | ------- |
-|      |         |
-|      |         |
+|  Arduino IDE    |   processesing audio data, dsp, performs noise filtering, and manages wireless communication.      |
+
 
 ---
 
