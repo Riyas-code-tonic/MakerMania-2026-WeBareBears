@@ -193,3 +193,38 @@ Noticeable delay exists between speech capture and audio playback, impacting rea
 - Working on implementing **automatic Bluetooth device discovery and pairing** for discoverable Bluetooth earbuds. Investigated scanning mechanisms, RSSI-based device selection, and pairing workflows to enable the ESP32 to automatically detect and connect to available earbuds without requiring manual configuration.
 - Testing and refining the auto-pairing process to improve connection reliability and ensure seamless reconnection with the intended Bluetooth earbuds whenever they are available.
 
+---
+
+## 3 July 2026
+
+- Worked on implementing and improving the Bluetooth pairing mechanism between the ESP32 and Bluetooth earbuds.
+- Focused on enhancing audio transmission reliability by analyzing the communication pipeline and testing different configurations.
+
+---
+
+## 8 July 2026
+
+- Continued development of Bluetooth pairing and connection management.
+- Performed testing to improve connectivity stability and optimize real-time audio transmission between the MEMS microphone and Bluetooth earbuds.
+
+---
+
+## 9 July 2026
+
+- Worked on the mechanical design of the project, refining the enclosure and component layout to improve functionality, assembly, and overall aesthetics.
+
+---
+
+## 10 July 2026
+
+- Further refined the hardware design and prepared the model for fabrication.
+- Completed 3D printing of the designed components and evaluated the printed parts for fit, alignment, and usability.
+
+---
+
+## 13 July 2026
+
+- Made design modifications based on testing and assembly observations.
+- Continued working on Bluetooth connectivity and audio transmission, focusing on improving connection reliability and overall speech communication performance.
+
+---
